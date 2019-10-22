@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/whiskeredwonder/inso.git"
+    "url": "git+https://github.com/wendtcode/inso.git"
   },
   "keywords": [
     "🔎",
@@ -20,12 +20,12 @@
     "object",
     "search"
   ],
-  "author": "Brian Wendt <brianwendt@outlook.com>",
+  "author": "Brian Wendt <brian@wendtcode.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/whiskeredwonder/inso/issues"
+    "url": "https://github.com/wendtcode/inso/issues"
   },
-  "homepage": "https://github.com/whiskeredwonder/inso#readme",
+  "homepage": "https://github.com/wendtcode/inso#readme",
   "files": [
     "dist"
   ],
