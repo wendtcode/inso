@@ -1,16 +1,17 @@
 {
   "name": "inso",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Case-insensitive object search",
   "main": "dist/inso.js",
   "scripts": {
+    "preinstall": "npx npm-force-resolutions",
     "build": "microbundle",
     "pretest": "npm run build",
     "test": "ava"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/whiskeredwonder/inso.git"
+    "url": "git+https://github.com/wendtcode/inso.git"
   },
   "keywords": [
     "🔎",
@@ -19,17 +20,21 @@
     "object",
     "search"
   ],
-  "author": "Brian Wendt <brianwendt@outlook.com>",
+  "author": "Brian Wendt <brian@wendtcode.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/whiskeredwonder/inso/issues"
+    "url": "https://github.com/wendtcode/inso/issues"
   },
-  "homepage": "https://github.com/whiskeredwonder/inso#readme",
+  "homepage": "https://github.com/wendtcode/inso#readme",
   "files": [
     "dist"
   ],
   "devDependencies": {
     "ava": "~1.3.1",
     "microbundle": "~0.11.0"
+  },
+  "resolutions": {
+    "rollup-plugin-typescript2": "0.24.3",
+    "js-yaml": "3.13.1"
   }
 }
