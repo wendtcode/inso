@@ -1,9 +1,10 @@
 {
   "name": "inso",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Case-insensitive object search",
   "main": "dist/inso.js",
   "scripts": {
+    "preinstall": "npx npm-force-resolutions",
     "build": "microbundle",
     "pretest": "npm run build",
     "test": "ava"
@@ -31,5 +32,9 @@
   "devDependencies": {
     "ava": "~1.3.1",
     "microbundle": "~0.11.0"
+  },
+  "resolutions": {
+    "rollup-plugin-typescript2": "0.24.3",
+    "js-yaml": "3.13.1"
   }
 }
