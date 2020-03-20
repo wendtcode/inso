@@ -1,6 +1,6 @@
-import test from "ava";
+const test = require("ava");
 
-import inso from "./dist/inso";
+const inso = require("./dist/inso");
 
 const obj = {
   foo: 1,
