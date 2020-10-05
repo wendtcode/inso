@@ -1,6 +1,6 @@
 {
   "name": "inso",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Case-insensitive object search",
   "main": "dist/inso.js",
   "scripts": {
