@@ -1,9 +1,9 @@
-export default function inso(obj, ...searches) {
+export default function inso(obj?: Record<string, unknown>, ...searches: Array<string>) {
   if (!obj || !searches.length) {
     return void 0;
   }
 
-  let match;
+  let match: unknown;
 
   const objKeys = Object.keys(obj);
   const lowerObjKeys = objKeys.map(objKey => objKey.toLowerCase());
